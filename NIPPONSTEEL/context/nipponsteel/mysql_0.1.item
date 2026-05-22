@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_kmaSUFTcEfGjLZHw1EGb4w" confirmationNeeded="false" hide="false" name="Default">
-  <contextParameter xmi:id="_kmaSUVTcEfGjLZHw1EGb4w" comment="" name="mysql_Login" prompt="mysql_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root"/>
-  <contextParameter xmi:id="_kmaSUlTcEfGjLZHw1EGb4w" comment="" name="mysql_Port" prompt="mysql_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306"/>
-  <contextParameter xmi:id="_kmaSU1TcEfGjLZHw1EGb4w" comment="" name="mysql_Server" prompt="mysql_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost"/>
-  <contextParameter xmi:id="_kmaSVFTcEfGjLZHw1EGb4w" comment="" name="mysql_AdditionalParams" prompt="mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
-  <contextParameter xmi:id="_kmaSVVTcEfGjLZHw1EGb4w" comment="" name="mysql_Password" prompt="mysql_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:064zX16RvSwTMDLq/GTO8LLuZEpzKwsOMgniXuu0dM0="/>
-  <contextParameter xmi:id="_kmaSVlTcEfGjLZHw1EGb4w" comment="" name="mysql_Database" prompt="mysql_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="talend"/>
+  <contextParameter xmi:id="_kmaSUVTcEfGjLZHw1EGb4w" comment="" name="mysql_Login" prompt="mysql_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root"/>
+  <contextParameter xmi:id="_kmaSUlTcEfGjLZHw1EGb4w" comment="" name="mysql_Port" prompt="mysql_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+  <contextParameter xmi:id="_kmaSU1TcEfGjLZHw1EGb4w" comment="" name="mysql_Server" prompt="mysql_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_kmaSVFTcEfGjLZHw1EGb4w" comment="" name="mysql_AdditionalParams" prompt="mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+  <contextParameter xmi:id="_kmaSVVTcEfGjLZHw1EGb4w" comment="" name="mysql_Password" prompt="mysql_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root"/>
+  <contextParameter xmi:id="_kmaSVlTcEfGjLZHw1EGb4w" comment="" name="mysql_Database" prompt="mysql_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend"/>
 </talendfile:ContextType>

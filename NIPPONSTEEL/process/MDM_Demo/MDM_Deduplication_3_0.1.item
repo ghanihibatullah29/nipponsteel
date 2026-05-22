@@ -5,11 +5,11 @@
     <contextParameter comment="" name="mysql_Port" prompt="mysql_Port?" promptNeeded="false" repositoryContextId="_klYXkFTcEfGjLZHw1EGb4w" type="id_String" value="3306" internalId="_nkD5wVTdEfGjLZHw1EGb4w"/>
     <contextParameter comment="" name="mysql_Server" prompt="mysql_Server?" promptNeeded="false" repositoryContextId="_klYXkFTcEfGjLZHw1EGb4w" type="id_String" value="localhost" internalId="_nkD5wlTdEfGjLZHw1EGb4w"/>
     <contextParameter comment="" name="mysql_AdditionalParams" prompt="mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="_klYXkFTcEfGjLZHw1EGb4w" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_nkD5w1TdEfGjLZHw1EGb4w"/>
-    <contextParameter comment="" name="mysql_Password" prompt="mysql_Password?" promptNeeded="false" repositoryContextId="_klYXkFTcEfGjLZHw1EGb4w" type="id_Password" value="enc:system.encryption.key.v1:Ba+DZZWIDr+GxBlEuaPa3YUeRb9Gz+x6LaneE/cOP+w=" internalId="_nkD5xFTdEfGjLZHw1EGb4w"/>
+    <contextParameter comment="" name="mysql_Password" prompt="mysql_Password?" promptNeeded="false" repositoryContextId="_klYXkFTcEfGjLZHw1EGb4w" type="id_String" value="root" internalId="_nkD5xFTdEfGjLZHw1EGb4w"/>
     <contextParameter comment="" name="mysql_Database" prompt="mysql_Database?" promptNeeded="false" repositoryContextId="_klYXkFTcEfGjLZHw1EGb4w" type="id_String" value="talend" internalId="_nkD5xVTdEfGjLZHw1EGb4w"/>
     <contextParameter comment="" name="postgres_AdditionalParams" prompt="postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_oYKssFTcEfGjLZHw1EGb4w" type="id_String" value="" internalId="_nkD5xlTdEfGjLZHw1EGb4w"/>
     <contextParameter comment="" name="postgres_Server" prompt="postgres_Server?" promptNeeded="false" repositoryContextId="_oYKssFTcEfGjLZHw1EGb4w" type="id_String" value="localhost" internalId="_nkD5x1TdEfGjLZHw1EGb4w"/>
-    <contextParameter comment="" name="postgres_Password" prompt="postgres_Password?" promptNeeded="false" repositoryContextId="_oYKssFTcEfGjLZHw1EGb4w" type="id_Password" value="enc:system.encryption.key.v1:0Ik2RyDcEonXxJoohuKsQg7kSAzcdBRnM0Yh+mXaO2ip" internalId="_nkD5yFTdEfGjLZHw1EGb4w"/>
+    <contextParameter comment="" name="postgres_Password" prompt="postgres_Password?" promptNeeded="false" repositoryContextId="_oYKssFTcEfGjLZHw1EGb4w" type="id_String" value="admin" internalId="_nkD5yFTdEfGjLZHw1EGb4w"/>
     <contextParameter comment="" name="postgres_Database" prompt="postgres_Database?" promptNeeded="false" repositoryContextId="_oYKssFTcEfGjLZHw1EGb4w" type="id_String" value="postgres" internalId="_nkD5yVTdEfGjLZHw1EGb4w"/>
     <contextParameter comment="" name="postgres_Port" prompt="postgres_Port?" promptNeeded="false" repositoryContextId="_oYKssFTcEfGjLZHw1EGb4w" type="id_String" value="5432" internalId="_nkD5ylTdEfGjLZHw1EGb4w"/>
     <contextParameter comment="" name="postgres_Login" prompt="postgres_Login?" promptNeeded="false" repositoryContextId="_oYKssFTcEfGjLZHw1EGb4w" type="id_String" value="postgres" internalId="_nkD5y1TdEfGjLZHw1EGb4w"/>
@@ -985,7 +985,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
@@ -1001,7 +1001,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>

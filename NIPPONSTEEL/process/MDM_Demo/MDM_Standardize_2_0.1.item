@@ -6,12 +6,12 @@
     <contextParameter comment="" name="postgres_Server" prompt="postgres_Server?" promptNeeded="false" repositoryContextId="_oYKssFTcEfGjLZHw1EGb4w" type="id_String" value="localhost" internalId="_QBmk4lW1EfGjLZHw1EGb4w"/>
     <contextParameter comment="" name="postgres_AdditionalParams" prompt="postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_oYKssFTcEfGjLZHw1EGb4w" type="id_String" value="" internalId="_QBmk41W1EfGjLZHw1EGb4w"/>
     <contextParameter comment="" name="postgres_Schema" prompt="postgres_Schema?" promptNeeded="false" repositoryContextId="_oYKssFTcEfGjLZHw1EGb4w" type="id_String" value="public" internalId="_QBmk5FW1EfGjLZHw1EGb4w"/>
-    <contextParameter comment="" name="postgres_Password" prompt="postgres_Password?" promptNeeded="false" repositoryContextId="_oYKssFTcEfGjLZHw1EGb4w" type="id_Password" value="enc:system.encryption.key.v1:Fpl4/rKvpfKmNDYtL6JHGt+Q9hQJaOyCt7he8k3fCfg6" internalId="_QBmk5VW1EfGjLZHw1EGb4w"/>
+    <contextParameter comment="" name="postgres_Password" prompt="postgres_Password?" promptNeeded="false" repositoryContextId="_oYKssFTcEfGjLZHw1EGb4w" type="id_String" value="admin" internalId="_QBmk5VW1EfGjLZHw1EGb4w"/>
     <contextParameter comment="" name="postgres_Database" prompt="postgres_Database?" promptNeeded="false" repositoryContextId="_oYKssFTcEfGjLZHw1EGb4w" type="id_String" value="postgres" internalId="_QBmk5lW1EfGjLZHw1EGb4w"/>
     <contextParameter comment="" name="mysql_Server" prompt="mysql_Server?" promptNeeded="false" repositoryContextId="_klYXkFTcEfGjLZHw1EGb4w" type="id_String" value="localhost" internalId="_QBmk51W1EfGjLZHw1EGb4w"/>
     <contextParameter comment="" name="mysql_Login" prompt="mysql_Login?" promptNeeded="false" repositoryContextId="_klYXkFTcEfGjLZHw1EGb4w" type="id_String" value="root" internalId="_QBmk6FW1EfGjLZHw1EGb4w"/>
     <contextParameter comment="" name="mysql_Database" prompt="mysql_Database?" promptNeeded="false" repositoryContextId="_klYXkFTcEfGjLZHw1EGb4w" type="id_String" value="talend" internalId="_QBmk6VW1EfGjLZHw1EGb4w"/>
-    <contextParameter comment="" name="mysql_Password" prompt="mysql_Password?" promptNeeded="false" repositoryContextId="_klYXkFTcEfGjLZHw1EGb4w" type="id_Password" value="enc:system.encryption.key.v1:zmRUHWJjqBCFSAhRI8omjdDqNzcisY5TZE3ihLerXu4=" internalId="_QBmk6lW1EfGjLZHw1EGb4w"/>
+    <contextParameter comment="" name="mysql_Password" prompt="mysql_Password?" promptNeeded="false" repositoryContextId="_klYXkFTcEfGjLZHw1EGb4w" type="id_String" value="root" internalId="_QBmk6lW1EfGjLZHw1EGb4w"/>
     <contextParameter comment="" name="mysql_AdditionalParams" prompt="mysql_AdditionalParams?" promptNeeded="false" repositoryContextId="_klYXkFTcEfGjLZHw1EGb4w" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_QBmk61W1EfGjLZHw1EGb4w"/>
     <contextParameter comment="" name="mysql_Port" prompt="mysql_Port?" promptNeeded="false" repositoryContextId="_klYXkFTcEfGjLZHw1EGb4w" type="id_String" value="3306" internalId="_QBmk7FW1EfGjLZHw1EGb4w"/>
   </context>
@@ -281,7 +281,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_uJkqoFTcEfGjLZHw1EGb4w-tMap_4-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_tXKmIFW0EfGjLZHw1EGb4w-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
@@ -502,16 +502,6 @@
   </node>
   <node componentName="tMysqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="280" posY="-320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tMysqlConnection" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/MySQL|ELT/Connections" show="false"/>
-    <elementParameter field="CHECK" name="START" value="false" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tMysqlConnection" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_vP_8oFTbEfGjLZHw1EGb4w" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
@@ -535,16 +525,6 @@
   </node>
   <node componentName="tPostgresqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="440" posY="-320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_2" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tPostgresqlConnection" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/PostgreSQL|ELT/Connections" show="false"/>
-    <elementParameter field="CHECK" name="START" value="false" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tPostgresqlConnection" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_VXZKcFTcEfGjLZHw1EGb4w" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
@@ -574,10 +554,12 @@
   <node componentName="tMysqlClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBClose_1" show="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <node componentName="tPostgresqlClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="560" posY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBClose_2" show="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tFilterRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -615,7 +597,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
@@ -631,7 +613,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
