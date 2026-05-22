@@ -1,0 +1,51 @@
+{
+  "itemId" : "_tXKmIFW0EfGjLZHw1EGb4w",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_oYKssFTcEfGjLZHw1EGb4w",
+    "parameterList" : [ {
+      "id" : "_oZlB8VTcEfGjLZHw1EGb4w",
+      "name" : "postgres_Login"
+    }, {
+      "id" : "_oZlB8lTcEfGjLZHw1EGb4w",
+      "name" : "postgres_Port"
+    }, {
+      "id" : "_oZlB81TcEfGjLZHw1EGb4w",
+      "name" : "postgres_Server"
+    }, {
+      "id" : "_oZlB9FTcEfGjLZHw1EGb4w",
+      "name" : "postgres_AdditionalParams"
+    }, {
+      "id" : "_oZlB9VTcEfGjLZHw1EGb4w",
+      "name" : "postgres_Schema"
+    }, {
+      "id" : "_oZlB9lTcEfGjLZHw1EGb4w",
+      "name" : "postgres_Password"
+    }, {
+      "id" : "_oZlB91TcEfGjLZHw1EGb4w",
+      "name" : "postgres_Database"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_klYXkFTcEfGjLZHw1EGb4w",
+    "parameterList" : [ {
+      "id" : "_kmaSU1TcEfGjLZHw1EGb4w",
+      "name" : "mysql_Server"
+    }, {
+      "id" : "_kmaSUVTcEfGjLZHw1EGb4w",
+      "name" : "mysql_Login"
+    }, {
+      "id" : "_kmaSVlTcEfGjLZHw1EGb4w",
+      "name" : "mysql_Database"
+    }, {
+      "id" : "_kmaSVVTcEfGjLZHw1EGb4w",
+      "name" : "mysql_Password"
+    }, {
+      "id" : "_kmaSVFTcEfGjLZHw1EGb4w",
+      "name" : "mysql_AdditionalParams"
+    }, {
+      "id" : "_kmaSUlTcEfGjLZHw1EGb4w",
+      "name" : "mysql_Port"
+    } ]
+  } ]
+}
