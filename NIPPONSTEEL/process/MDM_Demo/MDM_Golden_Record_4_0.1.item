@@ -244,7 +244,7 @@
       <column comment="" key="false" length="10" name="completeness_score" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="10" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out7">
         <mapperTableEntries name="group_id" expression="row8.GID " type="id_String" nullable="true"/>
@@ -264,7 +264,7 @@
         <mapperTableEntries name="group_quality" expression="row8.GRP_QUALITY " type="id_Double" nullable="true"/>
         <mapperTableEntries name="is_master" expression="row8.MASTER " type="id_Boolean" nullable="true"/>
         <mapperTableEntries name="source_priority" expression="row8.source_system.equals(&quot;POSTGRES&quot;) ? 1 :&#xD;&#xA;row8.source_system.equals(&quot;MYSQL&quot;) ? 2 :&#xD;&#xA;row8.source_system.equals(&quot;CSV&quot;) ? 3 : 9 " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="completeness_score" expression="(row8.vendor_name_std != null &amp;&amp; !row8.vendor_name_std.equals(&quot;&quot;) ? 1 : 0)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ (row8.tax_id != null &amp;&amp; !row8.tax_id.equals(&quot;&quot;) ? 1 : 0)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ (row8.email_std != null &amp;&amp; !row8.email_std.equals(&quot;&quot;) ? 1 : 0)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ (row8.phone_std != null &amp;&amp; !row8.phone_std.equals(&quot;&quot;) ? 1 : 0)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ (row8.address_std != null &amp;&amp; !row8.address_std.equals(&quot;&quot;) ? 1 : 0)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ (row8.city_std != null &amp;&amp; !row8.city_std.equals(&quot;&quot;) ? 1 : 0)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ (row8.country != null &amp;&amp; !row8.country.equals(&quot;&quot;) ? 1 : 0)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ (row8.category != null &amp;&amp; !row8.category.equals(&quot;&quot;) ? 1 : 0) " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="completeness_score" expression="(row8.vendor_name_std != null &amp;&amp; !row8.vendor_name_std.equals(&quot;&quot;) ? 30 : 0)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ (row8.tax_id != null &amp;&amp; !row8.tax_id.equals(&quot;&quot;) ? 30 : 0)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ (row8.email_std != null &amp;&amp; !row8.email_std.equals(&quot;&quot;) ? 15 : 0)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ (row8.phone_std != null &amp;&amp; !row8.phone_std.equals(&quot;&quot;) ? 10 : 0)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ (row8.address_std != null &amp;&amp; !row8.address_std.equals(&quot;&quot;) ? 5 : 0)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ (row8.city_std != null &amp;&amp; !row8.city_std.equals(&quot;&quot;) ? 4 : 0)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ (row8.country != null &amp;&amp; !row8.country.equals(&quot;&quot;) ? 3 : 0)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ (row8.category != null &amp;&amp; !row8.category.equals(&quot;&quot;) ? 3 : 0) " type="id_Integer" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row8" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="source_system" type="id_String" nullable="true"/>
@@ -754,7 +754,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
@@ -770,7 +770,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>

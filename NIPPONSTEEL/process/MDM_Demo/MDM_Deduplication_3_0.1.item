@@ -556,69 +556,69 @@
         <matchParamMap key="MATCHING_ALGORITHM" value="TSWOOSH_MATCHER"/>
       </ruleMatchers>
       <particularDefaultSurvivorshipDefinitions>
+        <columnMap key="REFERENCE_COLUMN" value="ingestion_date"/>
+        <columnMap key="SURVIVORSHIP_FUNCTION" value="Longest"/>
         <columnMap key="INPUT_COLUMN" value="vendor_name_std"/>
-        <columnMap key="SURVIVORSHIP_FUNCTION" value="Longest"/>
-        <columnMap key="REFERENCE_COLUMN" value="ingestion_date"/>
         <columnMap key="PARAMETER" value=","/>
       </particularDefaultSurvivorshipDefinitions>
       <particularDefaultSurvivorshipDefinitions>
+        <columnMap key="REFERENCE_COLUMN" value="ingestion_date"/>
+        <columnMap key="SURVIVORSHIP_FUNCTION" value="Longest"/>
         <columnMap key="INPUT_COLUMN" value="email_std"/>
-        <columnMap key="SURVIVORSHIP_FUNCTION" value="Longest"/>
-        <columnMap key="REFERENCE_COLUMN" value="ingestion_date"/>
         <columnMap key="PARAMETER" value=","/>
       </particularDefaultSurvivorshipDefinitions>
       <particularDefaultSurvivorshipDefinitions>
+        <columnMap key="REFERENCE_COLUMN" value="ingestion_date"/>
+        <columnMap key="SURVIVORSHIP_FUNCTION" value="Longest"/>
         <columnMap key="INPUT_COLUMN" value="tax_id"/>
-        <columnMap key="SURVIVORSHIP_FUNCTION" value="Longest"/>
-        <columnMap key="REFERENCE_COLUMN" value="ingestion_date"/>
         <columnMap key="PARAMETER" value=","/>
       </particularDefaultSurvivorshipDefinitions>
       <particularDefaultSurvivorshipDefinitions>
+        <columnMap key="REFERENCE_COLUMN" value="ingestion_date"/>
+        <columnMap key="SURVIVORSHIP_FUNCTION" value="Longest"/>
         <columnMap key="INPUT_COLUMN" value="phone_std"/>
-        <columnMap key="SURVIVORSHIP_FUNCTION" value="Longest"/>
-        <columnMap key="REFERENCE_COLUMN" value="ingestion_date"/>
         <columnMap key="PARAMETER" value=","/>
       </particularDefaultSurvivorshipDefinitions>
       <particularDefaultSurvivorshipDefinitions>
+        <columnMap key="REFERENCE_COLUMN" value="ingestion_date"/>
+        <columnMap key="SURVIVORSHIP_FUNCTION" value="Longest"/>
         <columnMap key="INPUT_COLUMN" value="address_std"/>
-        <columnMap key="SURVIVORSHIP_FUNCTION" value="Longest"/>
-        <columnMap key="REFERENCE_COLUMN" value="ingestion_date"/>
         <columnMap key="PARAMETER" value=","/>
       </particularDefaultSurvivorshipDefinitions>
       <particularDefaultSurvivorshipDefinitions>
+        <columnMap key="REFERENCE_COLUMN" value="ingestion_date"/>
+        <columnMap key="SURVIVORSHIP_FUNCTION" value="MostCommon"/>
         <columnMap key="INPUT_COLUMN" value="city_std"/>
-        <columnMap key="SURVIVORSHIP_FUNCTION" value="MostCommon"/>
-        <columnMap key="REFERENCE_COLUMN" value="ingestion_date"/>
         <columnMap key="PARAMETER" value=","/>
       </particularDefaultSurvivorshipDefinitions>
       <particularDefaultSurvivorshipDefinitions>
+        <columnMap key="REFERENCE_COLUMN" value="ingestion_date"/>
+        <columnMap key="SURVIVORSHIP_FUNCTION" value="MostCommon"/>
         <columnMap key="INPUT_COLUMN" value="country"/>
-        <columnMap key="SURVIVORSHIP_FUNCTION" value="MostCommon"/>
-        <columnMap key="REFERENCE_COLUMN" value="ingestion_date"/>
         <columnMap key="PARAMETER" value=","/>
       </particularDefaultSurvivorshipDefinitions>
       <particularDefaultSurvivorshipDefinitions>
+        <columnMap key="REFERENCE_COLUMN" value="ingestion_date"/>
+        <columnMap key="SURVIVORSHIP_FUNCTION" value="MostCommon"/>
         <columnMap key="INPUT_COLUMN" value="category"/>
-        <columnMap key="SURVIVORSHIP_FUNCTION" value="MostCommon"/>
-        <columnMap key="REFERENCE_COLUMN" value="ingestion_date"/>
         <columnMap key="PARAMETER" value=","/>
       </particularDefaultSurvivorshipDefinitions>
       <particularDefaultSurvivorshipDefinitions>
+        <columnMap key="REFERENCE_COLUMN" value="ingestion_date"/>
+        <columnMap key="SURVIVORSHIP_FUNCTION" value="MostCommon"/>
         <columnMap key="INPUT_COLUMN" value="is_active"/>
-        <columnMap key="SURVIVORSHIP_FUNCTION" value="MostCommon"/>
-        <columnMap key="REFERENCE_COLUMN" value="ingestion_date"/>
         <columnMap key="PARAMETER" value=","/>
       </particularDefaultSurvivorshipDefinitions>
       <particularDefaultSurvivorshipDefinitions>
+        <columnMap key="REFERENCE_COLUMN" value="ingestion_date"/>
+        <columnMap key="SURVIVORSHIP_FUNCTION" value="MostCommon"/>
         <columnMap key="INPUT_COLUMN" value="source_system"/>
-        <columnMap key="SURVIVORSHIP_FUNCTION" value="MostCommon"/>
-        <columnMap key="REFERENCE_COLUMN" value="ingestion_date"/>
         <columnMap key="PARAMETER" value=","/>
       </particularDefaultSurvivorshipDefinitions>
       <particularDefaultSurvivorshipDefinitions>
-        <columnMap key="INPUT_COLUMN" value="contact_name"/>
-        <columnMap key="SURVIVORSHIP_FUNCTION" value="MostCommon"/>
         <columnMap key="REFERENCE_COLUMN" value="ingestion_date"/>
+        <columnMap key="SURVIVORSHIP_FUNCTION" value="MostCommon"/>
+        <columnMap key="INPUT_COLUMN" value="contact_name"/>
         <columnMap key="PARAMETER" value=","/>
       </particularDefaultSurvivorshipDefinitions>
     </nodeData>
@@ -985,7 +985,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
@@ -1001,7 +1001,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
