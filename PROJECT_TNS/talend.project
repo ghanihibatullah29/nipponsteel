@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_ujAdQIZ_EfGbMMEljzhqFQ" label="Project_TNS" description="" language="java" technicalLabel="PROJECT_TNS" author="_ujAdQYZ_EfGbMMEljzhqFQ" productVersion="Qlik Talend Cloud Enterprise Edition-8.0.1.20260619_1127-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/ghanihibatullah29/nipponsteel.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+    <migrationTask xmi:id="_uk57P4Z_EfGbMMEljzhqFQ" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_ujAdQYZ_EfGbMMEljzhqFQ" login="steven.halim@b5y4k0lybihh1ae.sg.qlikcloud.com" firstName="Steven" lastName="Halim" type="DQ"/>
+</xmi:XMI>
